@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
 import com.pedro.workshopmongo.domain.User;
-import com.pedro.workshopmongo.repository.UserRepository;
+import com.pedro.workshopmongo.repositories.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner{
